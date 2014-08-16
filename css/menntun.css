@@ -52,7 +52,7 @@ body {
   z-index: 10;
   width: 66.3333333333%;
   height: 879px;
-  margin: -258px 0 0 0.06771%;
+  margin: -215px 0 0 0.01172%;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -152,6 +152,7 @@ body {
   position: relative;
   float: left;
   clear: both;
+  width: 13.6666666666%;
   height: 43px;
   margin-left: 10%;
   padding-left: 5px;
@@ -163,58 +164,49 @@ body {
 }
 
 ._button-1 {
-  z-index: 17;
-  width: 13.5989583333%;
-  border-top-left-radius: 5px;
-  background-color: rgb(196, 196, 196);
-}
-
-._button-2 {
   z-index: 11;
-  width: 13.6%;
+  border-top-left-radius: 5px;
   background-color: rgb(241, 241, 241);
 }
 
-._button-3 {
+._button-2 {
   z-index: 12;
-  width: 13.5989583333%;
+  background-color: rgb(196, 196, 196);
+}
+
+._button-3 {
+  z-index: 13;
   background-color: rgb(196, 196, 196);
 }
 
 ._button-4 {
-  z-index: 13;
-  width: 13.5989583333%;
+  z-index: 14;
   background-color: rgb(196, 196, 196);
 }
 
 ._button-5 {
-  z-index: 14;
-  width: 13.5989583333%;
+  z-index: 15;
   background-color: rgb(196, 196, 196);
 }
 
 ._button-6 {
-  z-index: 15;
-  width: 13.5989583333%;
-  background-color: rgb(196, 196, 196);
-}
-
-._button-7 {
   z-index: 16;
-  width: 13.5989583333%;
   border-bottom-left-radius: 5px;
   background-color: rgb(196, 196, 196);
 }
 
-._button-1:hover,
+._button-2:hover,
 ._button-3:hover,
 ._button-4:hover,
 ._button-5:hover,
-._button-6:hover,
-._button-7:hover {
+._button-6:hover {
   border-right-width: 0;
   border-right-style: none;
   background-color: rgb(214, 214, 214);
+}
+
+.johann a {
+  color: rgb(5, 5, 5);
 }
 
 .lhi strong {
@@ -242,7 +234,7 @@ body {
     z-index: 10;
     width: 66.50390625%;
     height: 900px;
-    margin-top: -301px;
+    margin-top: -258px;
     margin-left: 23.59467%;
   }
 
@@ -308,35 +300,31 @@ body {
   ._button {
     position: relative;
     width: 13.671875%;
-    margin-left: 9.96094%;
+    margin-left: 9.99756%;
     font-size: 0.875em;
   }
 
   ._button-1 {
-    z-index: 17;
-  }
-
-  ._button-2 {
     z-index: 11;
   }
 
-  ._button-3 {
+  ._button-2 {
     z-index: 12;
   }
 
-  ._button-4 {
+  ._button-3 {
     z-index: 13;
   }
 
-  ._button-5 {
+  ._button-4 {
     z-index: 14;
   }
 
-  ._button-6 {
+  ._button-5 {
     z-index: 15;
   }
 
-  ._button-7 {
+  ._button-6 {
     z-index: 16;
   }
 
@@ -433,61 +421,46 @@ body {
 
   ._button {
     position: relative;
+    font-size: 1em;
     text-align: center;
   }
 
   ._button-1 {
-    visibility: hidden;
-    z-index: 17;
-    width: 2.34375%;
-    margin-left: 7.68026%;
-    font-size: 0.857em;
+    z-index: 11;
+    width: 12.7604166666%;
+    margin-left: 10.02401%;
   }
 
   ._button-2 {
     clear: none;
-    z-index: 11;
-    width: 12.7604166666%;
+    z-index: 12;
     margin-left: 0;
-    border-top-left-radius: 5px;
-    font-size: 1em;
   }
 
   ._button-3 {
     clear: none;
-    z-index: 12;
+    z-index: 13;
     margin-left: 0;
-    font-size: 1em;
   }
 
   ._button-4 {
     clear: none;
-    z-index: 13;
+    z-index: 14;
     margin-left: 0;
-    font-size: 1em;
   }
 
   ._button-5 {
     clear: none;
-    z-index: 14;
+    z-index: 15;
     margin-left: 0;
-    font-size: 1em;
   }
 
   ._button-6 {
-    clear: none;
-    z-index: 15;
-    margin-left: 0;
-    font-size: 1em;
-  }
-
-  ._button-7 {
     clear: none;
     z-index: 16;
     width: 12.5%;
     margin-left: 0;
     border-bottom-left-radius: 0;
-    font-size: 1em;
   }
 }
 
@@ -496,8 +469,9 @@ body {
     position: relative;
     clear: none;
     z-index: 10;
+    width: 79.9295774647%;
     height: 1069px;
-    margin-left: 10.03246%;
+    margin-left: 10.21127%;
   }
 
   .content .ba {
@@ -567,53 +541,43 @@ body {
 
   ._button {
     position: relative;
-  }
-
-  ._button-1 {
-    z-index: 17;
-    margin-left: 7.68871%;
-  }
-
-  ._button-2 {
-    z-index: 11;
-    margin-left: 0.18706%;
     font-size: 0.857em;
   }
 
-  ._button-3 {
+  ._button-1 {
+    z-index: 11;
+    margin-left: 10.21677%;
+  }
+
+  ._button-2 {
     clear: both;
     z-index: 12;
     margin-top: -43px;
     margin-left: 22.9726%;
-    font-size: 0.857em;
   }
 
-  ._button-4 {
+  ._button-3 {
     z-index: 13;
     margin-top: -43px;
     margin-left: 36.64998%;
-    font-size: 0.857em;
   }
 
-  ._button-5 {
+  ._button-4 {
     z-index: 14;
     margin-top: -43px;
     margin-left: 50.3136%;
-    font-size: 0.857em;
   }
 
-  ._button-6 {
+  ._button-5 {
     z-index: 15;
     margin-top: -43px;
     margin-left: 63.99373%;
-    font-size: 0.857em;
   }
 
-  ._button-7 {
+  ._button-6 {
     z-index: 16;
     margin-top: -43px;
     margin-left: 77.6656%;
-    font-size: 0.857em;
   }
 }
 
@@ -626,7 +590,7 @@ body {
     position: relative;
     clear: both;
     z-index: 10;
-    width: 80%;
+    width: 79.6875%;
     height: 1099px;
     margin-left: 10%;
   }
@@ -691,18 +655,12 @@ body {
   }
 
   ._button-1 {
-    z-index: 17;
-    width: 0.3125%;
-    margin-left: 8.4375%;
+    z-index: 11;
+    width: 27.1874999999%;
+    margin-left: 10%;
   }
 
   ._button-2 {
-    z-index: 11;
-    width: 27.1874999999%;
-    margin-left: 0;
-  }
-
-  ._button-3 {
     clear: none;
     z-index: 12;
     width: 25.6249999999%;
@@ -710,7 +668,7 @@ body {
     margin-left: 0;
   }
 
-  ._button-4 {
+  ._button-3 {
     z-index: 13;
     width: 26.875%;
     margin-top: 0;
@@ -718,7 +676,7 @@ body {
     border-top-right-radius: 5px;
   }
 
-  ._button-5 {
+  ._button-4 {
     clear: both;
     z-index: 14;
     width: 27.1874999999%;
@@ -726,14 +684,14 @@ body {
     margin-left: 10%;
   }
 
-  ._button-6 {
+  ._button-5 {
     z-index: 15;
     width: 25.6249999999%;
     margin-top: 0;
     margin-left: 0;
   }
 
-  ._button-7 {
+  ._button-6 {
     z-index: 16;
     width: 26.875%;
     margin-top: 0;
