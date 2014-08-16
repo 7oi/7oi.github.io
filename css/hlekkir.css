@@ -51,7 +51,6 @@ div p {
 .hr {
   float: right;
   width: 100%;
-  margin-top: -136px;
   padding: 20px;
   font-size: 1em;
   font-weight: 400;
@@ -278,8 +277,7 @@ div p {
 
   .content .hr {
     width: 99.4126284875%;
-    margin-top: -134px;
-    margin-right: 0.52772%;
+    margin-right: 0.58508%;
     font-size: 14px;
   }
 
@@ -410,7 +408,7 @@ div p {
   }
 
   .hr span {
-    font-size: 1.429em;
+    font-size: 1.714em;
   }
 
   .hr strong {
@@ -588,7 +586,7 @@ div p {
 
   .content .hr {
     width: 102.2306663851%;
-    margin-right: -1.12613%;
+    margin-right: -1.09797%;
     font-size: 1.167em;
   }
 
@@ -744,8 +742,7 @@ div p {
 
   .content .hr {
     width: 104.0650406504%;
-    margin-top: -124px;
-    margin-right: -2.01531%;
+    margin-right: -2.02168%;
     font-size: 1em;
   }
 
