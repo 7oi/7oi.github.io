@@ -80,7 +80,14 @@ body {
   width: 34px;
 }
 
-.github,
+.github {
+  display: block;
+  position: relative;
+  float: left;
+  width: 34px;
+  margin-top: -34px;
+}
+
 .gplus,
 .linkdin {
   display: block;
@@ -98,14 +105,6 @@ body {
   font-weight: 400;
   line-height: 1.38;
   color: rgb(0, 0, 0);
-}
-
-.image {
-  display: block;
-  width: 60%;
-  height: auto;
-  margin: 149px auto 0;
-  overflow: hidden;
 }
 
 .johann {
@@ -182,9 +181,10 @@ body {
 }
 
 .social {
+  float: left;
   width: 35.6783919597%;
   height: 34px;
-  margin: 102px auto 0;
+  margin: 102px 0 0 32.15884%;
 }
 
 .tolvu {
@@ -232,8 +232,8 @@ body {
 }
 
 .content-1 {
-  z-index: 16;
-  height: 258px;
+  z-index: 17;
+  height: 340px;
   margin-top: -215px;
 }
 
@@ -251,9 +251,9 @@ body {
 
 .content-4 {
   clear: both;
-  z-index: 6;
-  height: 592px;
-  margin: -258px 0 0 23.58203%;
+  z-index: 5;
+  height: 1259px;
+  margin: -258px 0 0 23.58073%;
 }
 
 .content-5 {
@@ -286,6 +286,7 @@ body {
   z-index: 6;
   height: 34px;
   margin-top: -34px;
+  border-radius: 5px;
   background-color: rgba(222, 222, 222, 0);
 }
 
@@ -294,6 +295,11 @@ body {
   height: 34px;
   margin-left: 79.57634%;
   background-color: rgba(222, 222, 222, 0);
+}
+
+.github-1:hover {
+  border-radius: 5px;
+  background-color: rgba(120, 120, 120, 0.6);
 }
 
 .github-2 {
@@ -314,6 +320,7 @@ body {
   z-index: 10;
   height: 34px;
   margin-left: 40.46768%;
+  border-radius: 5px;
   background-color: rgba(222, 222, 222, 0);
 }
 
@@ -325,7 +332,7 @@ body {
   border-bottom: 1px solid rgb(0, 0, 0);
 }
 
-.hr-5 {
+.hr-2 {
   clear: both;
   width: 100%;
   margin-top: -136px;
@@ -333,10 +340,18 @@ body {
   padding-left: 20px;
 }
 
-.hr-2,
+.hr-6 {
+  clear: both;
+  width: 100%;
+  margin-top: 11px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
 .hr-3,
 .hr-4,
-.hr-6 {
+.hr-5,
+.hr-7 {
   width: 100%;
   padding-right: 20px;
   padding-left: 20px;
@@ -353,6 +368,7 @@ body {
   z-index: 8;
   height: 34px;
   margin-left: 20.24209%;
+  border-radius: 5px;
   background-color: rgba(222, 222, 222, 0);
 }
 
@@ -399,13 +415,27 @@ body {
   z-index: 12;
   width: 34px;
   height: 34px;
+  border-radius: 5px;
   background-color: rgba(222, 222, 222, 0);
 }
 
+.fb-2:hover,
+.gplus-2:hover,
+.linkdin-2:hover,
+.twitter-2:hover {
+  background-color: rgba(120, 120, 120, 0.6);
+}
+
 ._button-1 {
-  z-index: 17;
+  z-index: 18;
   width: 13.6666666666%;
   border-top-left-radius: 5px;
+  background-color: rgb(196, 196, 196);
+}
+
+._button-10 {
+  z-index: 11;
+  width: 13.6666666666%;
   background-color: rgb(196, 196, 196);
 }
 
@@ -415,138 +445,126 @@ body {
   background-color: rgb(241, 241, 241);
 }
 
-._button-14 {
-  z-index: 7;
-  width: 13.6666666666%;
-  border-top-left-radius: 5px;
-  background-color: rgb(196, 196, 196);
-}
-
 ._button-11,
-._button-15 {
+._button-14 {
   z-index: 13;
   width: 13.6666666666%;
   background-color: rgb(196, 196, 196);
 }
 
-._button-16 {
+._button-15 {
   z-index: 15;
   width: 13.6666666666%;
   background-color: rgb(196, 196, 196);
 }
 
 ._button-13,
-._button-19 {
+._button-18 {
   z-index: 14;
   width: 13.6666666666%;
   background-color: rgb(196, 196, 196);
 }
 
 ._button-2 {
-  z-index: 18;
+  z-index: 19;
   width: 13.6666666666%;
   background-color: rgb(196, 196, 196);
 }
 
-._button-21 {
+._button-20 {
   z-index: 16;
   width: 13.6666666666%;
   border-bottom-left-radius: 5px;
   background-color: rgb(196, 196, 196);
 }
 
-._button-18,
-._button-20,
-._button-22 {
+._button-16,
+._button-17,
+._button-19,
+._button-21 {
   z-index: 6;
   width: 13.6666666666%;
   border-top-left-radius: 5px;
   background-color: rgb(196, 196, 196);
 }
 
-._button-14:hover,
-._button-18:hover,
+._button-16:hover,
+._button-17:hover,
+._button-19:hover,
 ._button-1:hover,
-._button-20:hover,
-._button-22:hover,
+._button-21:hover,
 ._button-8:hover {
   background-color: rgb(214, 214, 214);
 }
 
-._button-25 {
+._button-24 {
   z-index: 15;
   width: 13.6666666666%;
   border-bottom-left-radius: 5px;
   background-color: rgb(196, 196, 196);
 }
 
-._button-26 {
+._button-25 {
   z-index: 7;
   width: 13.6%;
   background-color: rgb(241, 241, 241);
 }
 
-._button-24,
-._button-27 {
+._button-22,
+._button-23,
+._button-26 {
   z-index: 7;
   width: 13.6666666666%;
   background-color: rgb(196, 196, 196);
 }
 
 ._button-3 {
-  z-index: 19;
+  z-index: 20;
   width: 13.6666666666%;
   background-color: rgb(196, 196, 196);
 }
 
-._button-17,
+._button-27,
+._button-28,
 ._button-29,
-._button-30,
-._button-31 {
+._button-30 {
   z-index: 8;
   width: 13.6666666666%;
   background-color: rgb(196, 196, 196);
 }
 
-._button-10,
 ._button-32 {
-  z-index: 11;
-  width: 13.6666666666%;
-  background-color: rgb(196, 196, 196);
-}
-
-._button-33 {
   z-index: 9;
   width: 13.6%;
   background-color: rgb(241, 241, 241);
 }
 
-._button-23,
-._button-34,
-._button-35 {
+._button-31,
+._button-33,
+._button-34 {
   z-index: 9;
   width: 13.6666666666%;
   background-color: rgb(196, 196, 196);
 }
 
-._button-36 {
-  z-index: 12;
-  width: 13.6%;
-  border-bottom-left-radius: 5px;
-  background-color: rgb(241, 241, 241);
-}
-
-._button-28,
+._button-35,
+._button-36,
 ._button-37,
-._button-38,
-._button-39 {
+._button-38 {
   z-index: 10;
   width: 13.6666666666%;
   background-color: rgb(196, 196, 196);
 }
 
+._button-39 {
+  z-index: 11;
+  width: 13.6%;
+  border-bottom-left-radius: 5px;
+  background-color: rgb(241, 241, 241);
+}
+
 ._button-4 {
-  z-index: 20;
+  z-index: 21;
   width: 13.6666666666%;
   background-color: rgb(196, 196, 196);
 }
@@ -564,11 +582,11 @@ body {
 ._button-11:hover,
 ._button-12:hover,
 ._button-13:hover,
+._button-14:hover,
 ._button-15:hover,
-._button-16:hover,
-._button-17:hover,
-._button-19:hover,
-._button-21:hover,
+._button-18:hover,
+._button-20:hover,
+._button-22:hover,
 ._button-23:hover,
 ._button-24:hover,
 ._button-25:hover,
@@ -601,13 +619,13 @@ body {
 }
 
 ._button-5 {
-  z-index: 21;
+  z-index: 22;
   width: 13.6%;
   background-color: rgb(241, 241, 241);
 }
 
 ._button-6 {
-  z-index: 22;
+  z-index: 23;
   width: 13.6666666666%;
   border-bottom-left-radius: 5px;
   background-color: rgb(196, 196, 196);
@@ -635,13 +653,11 @@ body {
 
 .hr a {
   border-style: none;
-  color: rgb(90, 90, 90);
 }
 
 .hr span {
   border-style: none;
   font-style: normal;
-  font-size: 1.5em;
   font-weight: inherit;
   word-spacing: 1px;
   color: inherit;
@@ -653,6 +669,28 @@ body {
   font-weight: 700;
 }
 
+.hr-6 a {
+  color: rgb(120, 120, 120);
+}
+
+.hr-6 a:hover {
+  color: rgb(64, 64, 64);
+}
+
+.hr-6 span {
+  font-size: NaNem;
+}
+
+.hr-7 a,
+.lhi a,
+.mir a {
+  color: rgb(90, 90, 90);
+}
+
+.hr-7 span {
+  font-size: 1.5em;
+}
+
 .johann a {
   color: rgb(5, 5, 5);
 }
@@ -661,11 +699,6 @@ body {
   font-style: inherit;
   font-weight: 700;
   color: inherit;
-}
-
-.lhi a,
-.mir a {
-  color: rgb(90, 90, 90);
 }
 
 .mir strong {
@@ -691,6 +724,10 @@ body {
 }
 
 @media(max-width: 1024px) {
+  body {
+    font-size: 0.875em;
+  }
+
   .content {
     position: relative;
     width: 66.50390625%;
@@ -701,27 +738,20 @@ body {
     z-index: 5;
     width: 7.7621913544%;
     margin-left: 0.02983%;
+    font-size: 1.143em;
   }
 
   .content .bsc {
     position: relative;
     z-index: 4;
     width: 7.7621913544%;
+    font-size: 1.143em;
   }
 
-  .content .faerni,
-  .content .hr-3,
-  .content .hr-4,
-  .content .hr-6 {
+  .content .faerni {
     width: 99.4126284875%;
     margin-right: 0.52772%;
-    font-size: 0.875em;
-  }
-
-  .content .image {
-    width: 80%;
-    height: auto;
-    margin-top: 139px;
+    font-size: 1em;
   }
 
   .content .lhi {
@@ -729,6 +759,7 @@ body {
     z-index: 8;
     width: 89.4848852376%;
     margin-right: 0;
+    font-size: 1.143em;
   }
 
   .content .mir {
@@ -736,6 +767,7 @@ body {
     z-index: 9;
     width: 89.4848852376%;
     margin-right: 0;
+    font-size: 1.143em;
   }
 
   .content .na {
@@ -743,21 +775,22 @@ body {
     z-index: 6;
     width: 7.7621913544%;
     margin-left: 0.0413%;
+    font-size: 1.143em;
   }
 
   .content .social {
     width: 38.6150881057%;
     margin-top: 100px;
+    margin-left: 30.69246%;
   }
 
-  .content .tolvu,
-  .content .tungumal-2 {
+  .content .tolvu {
     margin-left: 1.00496%;
   }
 
   .johann {
     margin-left: 9.99756%;
-    font-size: 2.625em;
+    font-size: 3em;
   }
 
   .me {
@@ -766,6 +799,7 @@ body {
 
   .me .contactinfo {
     margin-left: 1.27089%;
+    font-size: 1.143em;
   }
 
   .me .smetti {
@@ -800,7 +834,7 @@ body {
     position: relative;
     width: 13.671875%;
     margin-left: 9.99756%;
-    font-size: 0.875em;
+    font-size: 1em;
   }
 
   .content .hr-1 {
@@ -808,29 +842,59 @@ body {
     z-index: 7;
     width: 89.3384287969%;
     margin-right: 0.40841%;
+    font-size: 1.143em;
   }
 
   .content .hr-2 {
     width: 99.4126284875%;
-    margin-right: 0.58508%;
-    font-size: 0.875em;
+    margin-top: -134px;
+    margin-right: 0.63326%;
+    font-size: 14px;
   }
 
-  .content .hr-5 {
+  .content .hr-3 {
     width: 99.4126284875%;
-    margin-top: -134px;
     margin-right: 0.58508%;
-    font-size: 0.875em;
+    font-size: 14px;
+  }
+
+  .content .hr-6 {
+    width: 99.4126284875%;
+    margin-top: 48px;
+    font-size: 14px;
+  }
+
+  .content .hr-4,
+  .content .hr-5,
+  .content .hr-7 {
+    width: 99.4126284875%;
+    margin-right: 0.52772%;
+    font-size: 14px;
+  }
+
+  .content .tolvu-1 {
+    font-size: 1.714em;
+  }
+
+  .content .tolvu-2 {
+    font-size: 1.143em;
   }
 
   .content .tungumal-1 {
     margin-top: 0;
     margin-left: 1.17245%;
+    font-size: 1.714em;
+  }
+
+  .content .tungumal-2 {
+    margin-left: 1.00496%;
+    font-size: 1.143em;
   }
 
   .content-1 {
     clear: both;
-    z-index: 16;
+    z-index: 17;
+    height: 329px;
     margin-top: -258px;
     margin-left: 23.63129%;
   }
@@ -852,8 +916,8 @@ body {
   }
 
   .content-4 {
-    z-index: 6;
-    height: 458px;
+    z-index: 5;
+    height: 1208px;
     margin-left: 23.63129%;
   }
 
@@ -938,83 +1002,83 @@ body {
   }
 
   ._button-1 {
-    z-index: 17;
-  }
-
-  ._button-11,
-  ._button-15 {
-    z-index: 13;
-  }
-
-  ._button-13,
-  ._button-19 {
-    z-index: 14;
-  }
-
-  ._button-2 {
     z-index: 18;
   }
 
-  ._button-21 {
-    z-index: 16;
-  }
-
-  ._button-18,
-  ._button-20,
-  ._button-22 {
-    z-index: 6;
-  }
-
-  ._button-16,
-  ._button-25 {
-    z-index: 15;
-  }
-
-  ._button-14,
-  ._button-24,
-  ._button-26,
-  ._button-27 {
-    z-index: 7;
-  }
-
-  ._button-3 {
-    z-index: 19;
-  }
-
-  ._button-17,
-  ._button-29,
-  ._button-30,
-  ._button-31 {
-    z-index: 8;
-  }
-
-  ._button-23,
-  ._button-33,
-  ._button-34,
-  ._button-35 {
-    z-index: 9;
-  }
-
   ._button-12,
-  ._button-36,
   ._button-9 {
     z-index: 12;
   }
 
+  ._button-11,
+  ._button-14 {
+    z-index: 13;
+  }
+
+  ._button-13,
+  ._button-18 {
+    z-index: 14;
+  }
+
+  ._button-2 {
+    z-index: 19;
+  }
+
+  ._button-20 {
+    z-index: 16;
+  }
+
+  ._button-16,
+  ._button-17,
+  ._button-19,
+  ._button-21 {
+    z-index: 6;
+  }
+
+  ._button-15,
+  ._button-24 {
+    z-index: 15;
+  }
+
+  ._button-22,
+  ._button-23,
+  ._button-25,
+  ._button-26 {
+    z-index: 7;
+  }
+
+  ._button-3 {
+    z-index: 20;
+  }
+
+  ._button-27,
   ._button-28,
+  ._button-29,
+  ._button-30 {
+    z-index: 8;
+  }
+
+  ._button-31,
+  ._button-32,
+  ._button-33,
+  ._button-34 {
+    z-index: 9;
+  }
+
+  ._button-35,
+  ._button-36,
   ._button-37,
   ._button-38,
-  ._button-39,
   ._button-8 {
     z-index: 10;
   }
 
   ._button-4 {
-    z-index: 20;
+    z-index: 21;
   }
 
   ._button-10,
-  ._button-32,
+  ._button-39,
   ._button-40,
   ._button-41,
   ._button-42,
@@ -1023,21 +1087,25 @@ body {
   }
 
   ._button-5 {
-    z-index: 21;
-  }
-
-  ._button-6 {
     z-index: 22;
   }
 
-  .hr span {
-    font-size: 1.429em;
+  ._button-6 {
+    z-index: 23;
   }
 
   .hr strong,
   .lhi strong,
   .mir strong {
     font-style: normal;
+  }
+
+  .hr-6 span {
+    font-size: 1.5em;
+  }
+
+  .hr-7 span {
+    font-size: 1.429em;
   }
 
   .tolvu span,
@@ -1047,10 +1115,6 @@ body {
 }
 
 @media(max-width: 768px) {
-  body {
-    font-size: 1em;
-  }
-
   .content {
     position: relative;
     width: 79.9479166666%;
@@ -1066,7 +1130,7 @@ body {
     z-index: 5;
     width: 6.347107438%;
     margin-left: 0;
-    font-size: 0.875em;
+    font-size: 1em;
     text-align: left;
   }
 
@@ -1074,35 +1138,31 @@ body {
     position: relative;
     z-index: 4;
     width: 6.347107438%;
-    font-size: 0.875em;
+    font-size: 1em;
     text-align: left;
   }
 
   .content .faerni,
-  .content .hr-3,
+  .content .hr-2,
   .content .hr-4,
   .content .hr-5,
-  .content .hr-6 {
+  .content .hr-7 {
     width: 101.655629139%;
     margin-right: -0.82523%;
-  }
-
-  .content .image {
-    height: auto;
   }
 
   .content .lhi {
     position: relative;
     z-index: 8;
     width: 91.4634456452%;
-    font-size: 0.875em;
+    font-size: 1em;
   }
 
   .content .mir {
     position: relative;
     z-index: 9;
     width: 91.4634456452%;
-    font-size: 0.875em;
+    font-size: 1em;
   }
 
   .content .na {
@@ -1110,12 +1170,13 @@ body {
     z-index: 6;
     width: 6.347107438%;
     margin-left: 0;
-    font-size: 0.875em;
+    font-size: 1em;
     text-align: left;
   }
 
   .content .social {
     width: 57.7167839403%;
+    margin-left: 21.13773%;
   }
 
   .content .tolvu {
@@ -1123,7 +1184,7 @@ body {
   }
 
   .johann {
-    font-size: 2em;
+    font-size: 2.286em;
   }
 
   .me {
@@ -1174,36 +1235,42 @@ body {
     z-index: 7;
     width: 91.4634456452%;
     margin-right: 0;
-    font-size: 0.875em;
+    font-size: 1em;
   }
 
-  .content .hr-2 {
+  .content .hr-3 {
     width: 101.655629139%;
     margin-right: -0.7916%;
     font-style: normal;
   }
 
+  .content .hr-6 {
+    width: 101.655629139%;
+    margin-top: 26px;
+    margin-right: -0.7972900001%;
+  }
+
   .content .tolvu-1 {
-    font-size: 1.25em;
+    font-size: 1.429em;
   }
 
   .content .tolvu-2 {
-    font-size: 0.875em;
+    font-size: 1em;
   }
 
   .content .tungumal-1 {
     margin-left: 1.00373%;
-    font-size: 1.25em;
+    font-size: 1.429em;
   }
 
   .content .tungumal-2 {
     margin-left: 1.50559%;
-    font-size: 0.875em;
+    font-size: 1em;
   }
 
   .content-1 {
-    z-index: 16;
-    height: 299px;
+    z-index: 17;
+    height: 381px;
   }
 
   .content-2 {
@@ -1216,7 +1283,8 @@ body {
   }
 
   .content-4 {
-    z-index: 6;
+    z-index: 5;
+    height: 1335px;
   }
 
   .content-5 {
@@ -1282,9 +1350,15 @@ body {
   }
 
   ._button-1 {
-    z-index: 17;
+    z-index: 18;
     width: 12.7604166666%;
     margin-left: 10.02401%;
+  }
+
+  ._button-10 {
+    clear: none;
+    z-index: 11;
+    margin-left: 0;
   }
 
   ._button-12,
@@ -1294,27 +1368,21 @@ body {
     margin-left: 0;
   }
 
-  ._button-14 {
-    z-index: 7;
-    width: 12.7604166666%;
-    margin-left: 10.02401%;
-  }
-
   ._button-11,
-  ._button-15 {
+  ._button-14 {
     clear: none;
     z-index: 13;
     margin-left: 0;
   }
 
-  ._button-16 {
+  ._button-15 {
     clear: none;
     z-index: 15;
     margin-left: 0;
   }
 
   ._button-13,
-  ._button-19 {
+  ._button-18 {
     clear: none;
     z-index: 14;
     margin-left: 0;
@@ -1322,11 +1390,11 @@ body {
 
   ._button-2 {
     clear: none;
-    z-index: 18;
+    z-index: 19;
     margin-left: 0;
   }
 
-  ._button-21 {
+  ._button-20 {
     clear: none;
     z-index: 16;
     width: 12.5%;
@@ -1334,15 +1402,16 @@ body {
     border-bottom-left-radius: 0;
   }
 
-  ._button-18,
-  ._button-20,
-  ._button-22 {
+  ._button-16,
+  ._button-17,
+  ._button-19,
+  ._button-21 {
     z-index: 6;
     width: 12.7604166666%;
     margin-left: 10.02401%;
   }
 
-  ._button-25 {
+  ._button-24 {
     clear: none;
     z-index: 15;
     width: 12.5%;
@@ -1350,9 +1419,10 @@ body {
     border-bottom-left-radius: 0;
   }
 
-  ._button-24,
-  ._button-26,
-  ._button-27 {
+  ._button-22,
+  ._button-23,
+  ._button-25,
+  ._button-26 {
     clear: none;
     z-index: 7;
     margin-left: 0;
@@ -1360,47 +1430,32 @@ body {
 
   ._button-3 {
     clear: none;
-    z-index: 19;
+    z-index: 20;
     margin-left: 0;
   }
 
-  ._button-17,
+  ._button-27,
+  ._button-28,
   ._button-29,
-  ._button-30,
-  ._button-31 {
+  ._button-30 {
     clear: none;
     z-index: 8;
     margin-left: 0;
   }
 
-  ._button-10,
-  ._button-32 {
-    clear: none;
-    z-index: 11;
-    margin-left: 0;
-  }
-
-  ._button-23,
+  ._button-31,
+  ._button-32,
   ._button-33,
-  ._button-34,
-  ._button-35 {
+  ._button-34 {
     clear: none;
     z-index: 9;
     margin-left: 0;
   }
 
-  ._button-36 {
-    clear: none;
-    z-index: 12;
-    width: 12.5%;
-    margin-left: 0;
-    border-bottom-left-radius: 0;
-  }
-
-  ._button-28,
+  ._button-35,
+  ._button-36,
   ._button-37,
-  ._button-38,
-  ._button-39 {
+  ._button-38 {
     clear: none;
     z-index: 10;
     margin-left: 0;
@@ -1408,10 +1463,11 @@ body {
 
   ._button-4 {
     clear: none;
-    z-index: 20;
+    z-index: 21;
     margin-left: 0;
   }
 
+  ._button-39,
   ._button-40,
   ._button-41,
   ._button-42 {
@@ -1424,13 +1480,13 @@ body {
 
   ._button-5 {
     clear: none;
-    z-index: 21;
+    z-index: 22;
     margin-left: 0;
   }
 
   ._button-6 {
     clear: none;
-    z-index: 22;
+    z-index: 23;
     width: 12.5%;
     margin-left: 0;
     border-bottom-left-radius: 0;
@@ -1448,12 +1504,20 @@ body {
     margin-left: 10.02401%;
   }
 
+  .hr-6 span {
+    font-size: 1.714em;
+  }
+
   .tolvu span {
     font-size: inherit;
   }
 }
 
 @media(max-width: 568px) {
+  body {
+    font-size: 0.875em;
+  }
+
   .content {
     position: relative;
     clear: none;
@@ -1476,17 +1540,12 @@ body {
   }
 
   .content .faerni,
-  .content .hr-3,
   .content .hr-4,
-  .content .hr-6 {
+  .content .hr-5,
+  .content .hr-7 {
     width: 102.2306663851%;
     margin-top: 3px;
     margin-right: -1.12613%;
-  }
-
-  .content .image {
-    width: 90%;
-    height: auto;
   }
 
   .content .lhi {
@@ -1512,8 +1571,11 @@ body {
   }
 
   .content .social {
+    float: none;
     width: 71.6251407657%;
     margin-top: 103px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .content .tolvu,
@@ -1523,7 +1585,7 @@ body {
 
   .johann {
     margin-left: 9.9967%;
-    font-size: 1.5em;
+    font-size: 1.714em;
   }
 
   .me {
@@ -1534,7 +1596,7 @@ body {
 
   .me .contactinfo {
     margin-left: 1.25592%;
-    font-size: 0.75em;
+    font-size: 0.857em;
   }
 
   .me .smetti {
@@ -1563,7 +1625,7 @@ body {
 
   ._button {
     position: relative;
-    font-size: 0.75em;
+    font-size: 0.857em;
   }
 
   .content .hr-1 {
@@ -1575,13 +1637,19 @@ body {
 
   .content .hr-2 {
     width: 102.2306663851%;
-    margin-right: -1.09093%;
+    margin-top: -119px;
+    margin-right: -1.08742%;
   }
 
-  .content .hr-5 {
+  .content .hr-3 {
     width: 102.2306663851%;
-    margin-top: -137px;
-    margin-right: -1.09445%;
+    margin-right: -1.08742%;
+  }
+
+  .content .hr-6 {
+    width: 102.2306663851%;
+    margin-top: 51px;
+    margin-right: -1.12613%;
   }
 
   .content .tungumal-2 {
@@ -1590,8 +1658,8 @@ body {
   }
 
   .content-1 {
-    z-index: 16;
-    margin-left: 9.9967%;
+    z-index: 17;
+    margin-left: 10.03246%;
   }
 
   .content-2 {
@@ -1606,8 +1674,8 @@ body {
   }
 
   .content-4 {
-    z-index: 6;
-    height: 403px;
+    z-index: 5;
+    height: 2269px;
     margin-left: 10.03246%;
   }
 
@@ -1678,7 +1746,7 @@ body {
   }
 
   ._button-1 {
-    z-index: 17;
+    z-index: 18;
     margin-left: 9.9967%;
   }
 
@@ -1708,30 +1776,18 @@ body {
   }
 
   ._button-14 {
-    z-index: 7;
-    margin-left: 9.99945%;
-  }
-
-  ._button-15 {
     z-index: 13;
     margin-top: -43px;
     margin-left: 50.09628%;
   }
 
-  ._button-16 {
+  ._button-15 {
     z-index: 15;
     margin-top: -43px;
     margin-left: 63.99373%;
   }
 
-  ._button-17 {
-    clear: both;
-    z-index: 8;
-    margin-top: -43px;
-    margin-left: 22.74978%;
-  }
-
-  ._button-19 {
+  ._button-18 {
     z-index: 14;
     margin-top: -43px;
     margin-left: 63.77916%;
@@ -1739,99 +1795,81 @@ body {
 
   ._button-2 {
     clear: both;
-    z-index: 18;
+    z-index: 19;
     margin-top: -43px;
     margin-left: 22.74978%;
   }
 
-  ._button-21 {
+  ._button-20 {
     z-index: 16;
     margin-top: -43px;
     margin-left: 77.6656%;
   }
 
-  ._button-18,
-  ._button-20,
-  ._button-22 {
+  ._button-16,
+  ._button-17,
+  ._button-19,
+  ._button-21 {
     z-index: 6;
     margin-left: 9.99945%;
   }
 
-  ._button-23 {
-    z-index: 9;
-    margin-top: -43px;
-    margin-left: 36.43541%;
-  }
-
-  ._button-25 {
+  ._button-24 {
     z-index: 15;
     margin-top: -43px;
     margin-left: 77.44828%;
   }
 
-  ._button-24,
-  ._button-26,
-  ._button-27 {
+  ._button-22,
+  ._button-23,
+  ._button-25,
+  ._button-26 {
     clear: both;
     z-index: 7;
     margin-top: -43px;
     margin-left: 22.74978%;
   }
 
-  ._button-28 {
-    z-index: 10;
-    margin-top: -43px;
-    margin-left: 50.09628%;
-  }
-
   ._button-3 {
-    z-index: 19;
+    z-index: 20;
     margin-top: -43px;
     margin-left: 36.42991%;
   }
 
+  ._button-27,
+  ._button-28,
   ._button-29,
-  ._button-30,
-  ._button-31 {
+  ._button-30 {
     z-index: 8;
     margin-top: -43px;
     margin-left: 36.43541%;
   }
 
-  ._button-32 {
-    z-index: 11;
-    margin-top: -43px;
-    margin-left: 63.77916%;
-  }
-
+  ._button-31,
+  ._button-32,
   ._button-33,
-  ._button-34,
-  ._button-35 {
+  ._button-34 {
     z-index: 9;
     margin-top: -43px;
     margin-left: 50.09628%;
   }
 
-  ._button-36 {
-    z-index: 12;
-    margin-top: -43px;
-    margin-left: 77.44828%;
-  }
-
+  ._button-35,
+  ._button-36,
   ._button-37,
-  ._button-38,
-  ._button-39 {
+  ._button-38 {
     z-index: 10;
     margin-top: -43px;
     margin-left: 63.77916%;
   }
 
   ._button-4 {
-    z-index: 20;
+    z-index: 21;
     margin-top: -43px;
     margin-left: 50.09353%;
   }
 
+  ._button-39,
   ._button-40,
   ._button-41,
   ._button-42 {
@@ -1841,13 +1879,13 @@ body {
   }
 
   ._button-5 {
-    z-index: 21;
+    z-index: 22;
     margin-top: -43px;
     margin-left: 63.77366%;
   }
 
   ._button-6 {
-    z-index: 22;
+    z-index: 23;
     margin-top: -43px;
     margin-left: 77.44553%;
   }
@@ -1869,6 +1907,10 @@ body {
     margin-left: 22.9726%;
   }
 
+  .hr-6 span {
+    font-size: 1.143em;
+  }
+
   .tolvu span,
   .tungumal span {
     font-size: 1.286em;
@@ -1877,7 +1919,7 @@ body {
 
 @media(max-width: 320px) {
   body {
-    font-size: 1em;
+    font-size: 0.75em;
   }
 
   .content {
@@ -1891,51 +1933,49 @@ body {
     position: relative;
     z-index: 5;
     width: 50.974025974%;
+    font-size: 1.167em;
   }
 
   .content .bsc {
     position: relative;
     z-index: 4;
     width: 48.7012987012%;
+    font-size: 1.167em;
   }
 
   .content .faerni,
-  .content .hr-3,
   .content .hr-4,
-  .content .hr-6 {
+  .content .hr-5,
+  .content .hr-7 {
     width: 104.0650406504%;
     margin-top: 2px;
     margin-right: -2.01531%;
-    font-size: 0.75em;
-  }
-
-  .content .image {
-    height: auto;
-    margin-top: 129px;
+    font-size: 12px;
   }
 
   .content .lhi {
     position: relative;
     z-index: 8;
     width: 100%;
+    font-size: 1.167em;
   }
 
   .content .mir {
     position: relative;
     z-index: 9;
     width: 100%;
+    font-size: 1.167em;
   }
 
   .content .na {
     position: relative;
     z-index: 6;
     width: 50.974025974%;
+    font-size: 1.167em;
   }
 
   .content .social {
-    position: relative;
     float: left;
-    z-index: 15;
     width: 88.5714285714%;
     margin-top: 92px;
     margin-right: 0;
@@ -1948,6 +1988,7 @@ body {
 
   .johann {
     margin-left: 10%;
+    font-size: 2em;
   }
 
   .me {
@@ -1958,6 +1999,7 @@ body {
 
   .me .contactinfo {
     margin-left: 1.26343%;
+    font-size: 1em;
   }
 
   .me .smetti {
@@ -1991,41 +2033,58 @@ body {
 
   ._button {
     position: relative;
+    font-size: 1em;
   }
 
   .content .hr-1 {
     position: relative;
     z-index: 7;
     width: 100%;
+    font-size: 1.167em;
   }
 
   .content .hr-2 {
     width: 104.0650406504%;
-    margin-right: -2.01531%;
-    font-size: 0.75em;
-  }
-
-  .content .hr-5 {
-    position: relative;
-    z-index: 4;
-    width: 104.0650406504%;
     margin-top: -126px;
     margin-right: -2.01531%;
-    font-size: 0.75em;
+    font-size: 12px;
+  }
+
+  .content .hr-3 {
+    width: 104.0650406504%;
+    margin-right: -2.01531%;
+    font-size: 12px;
+  }
+
+  .content .hr-6 {
+    width: 104.0650406504%;
+    margin-top: 48px;
+    margin-right: -2.04082%;
+    font-size: 12px;
+  }
+
+  .content .tolvu-1 {
+    font-size: 1.667em;
+  }
+
+  .content .tolvu-2 {
+    font-size: 1.167em;
   }
 
   .content .tungumal-1 {
     margin-left: 1.22449%;
+    font-size: 1.667em;
   }
 
   .content .tungumal-2 {
     margin-top: 0;
     margin-left: 1.00128%;
+    font-size: 1.167em;
   }
 
   .content-1 {
-    z-index: 16;
-    height: 297px;
+    z-index: 17;
+    height: 317px;
   }
 
   .content-2 {
@@ -2040,8 +2099,8 @@ body {
   }
 
   .content-4 {
-    z-index: 6;
-    height: 289px;
+    z-index: 5;
+    height: 1598px;
   }
 
   .content-5 {
@@ -2108,7 +2167,7 @@ body {
   }
 
   ._button-1 {
-    z-index: 17;
+    z-index: 18;
     width: 27.1874999999%;
     margin-left: 10%;
   }
@@ -2146,12 +2205,6 @@ body {
   }
 
   ._button-14 {
-    z-index: 7;
-    width: 27.1874999999%;
-    margin-left: 10%;
-  }
-
-  ._button-15 {
     clear: both;
     z-index: 13;
     width: 27.1874999999%;
@@ -2159,22 +2212,14 @@ body {
     margin-left: 10%;
   }
 
-  ._button-16 {
+  ._button-15 {
     z-index: 15;
     width: 25.6249999999%;
     margin-top: 0;
     margin-left: 0;
   }
 
-  ._button-17 {
-    clear: none;
-    z-index: 8;
-    width: 25.6249999999%;
-    margin-top: 0;
-    margin-left: 0;
-  }
-
-  ._button-19 {
+  ._button-18 {
     z-index: 14;
     width: 25.6249999999%;
     margin-top: 0;
@@ -2183,45 +2228,39 @@ body {
 
   ._button-2 {
     clear: none;
-    z-index: 18;
+    z-index: 19;
     width: 25.6249999999%;
     margin-top: 0;
     margin-left: 0;
   }
 
-  ._button-21 {
+  ._button-20 {
     z-index: 16;
     width: 26.875%;
     margin-top: 0;
     margin-left: 0;
   }
 
-  ._button-18,
-  ._button-20,
-  ._button-22 {
+  ._button-16,
+  ._button-17,
+  ._button-19,
+  ._button-21 {
     z-index: 6;
     width: 27.1874999999%;
     margin-left: 10%;
   }
 
-  ._button-23 {
-    z-index: 9;
-    width: 26.875%;
-    margin-top: 0;
-    margin-left: 0;
-    border-top-right-radius: 5px;
-  }
-
-  ._button-25 {
+  ._button-24 {
     z-index: 15;
     width: 26.875%;
     margin-top: 0;
     margin-left: 0;
   }
 
-  ._button-24,
-  ._button-26,
-  ._button-27 {
+  ._button-22,
+  ._button-23,
+  ._button-25,
+  ._button-26 {
     clear: none;
     z-index: 7;
     width: 25.6249999999%;
@@ -2229,25 +2268,18 @@ body {
     margin-left: 0;
   }
 
-  ._button-28 {
-    clear: both;
-    z-index: 10;
-    width: 27.1874999999%;
-    margin-top: 0;
-    margin-left: 10%;
-  }
-
   ._button-3 {
-    z-index: 19;
+    z-index: 20;
     width: 26.875%;
     margin-top: 0;
     margin-left: 0;
     border-top-right-radius: 5px;
   }
 
+  ._button-27,
+  ._button-28,
   ._button-29,
-  ._button-30,
-  ._button-31 {
+  ._button-30 {
     z-index: 8;
     width: 26.875%;
     margin-top: 0;
@@ -2255,16 +2287,10 @@ body {
     border-top-right-radius: 5px;
   }
 
-  ._button-32 {
-    z-index: 11;
-    width: 25.6249999999%;
-    margin-top: 0;
-    margin-left: 0;
-  }
-
+  ._button-31,
+  ._button-32,
   ._button-33,
-  ._button-34,
-  ._button-35 {
+  ._button-34 {
     clear: both;
     z-index: 9;
     width: 27.1874999999%;
@@ -2272,16 +2298,10 @@ body {
     margin-left: 10%;
   }
 
-  ._button-36 {
-    z-index: 12;
-    width: 26.875%;
-    margin-top: 0;
-    margin-left: 0;
-  }
-
+  ._button-35,
+  ._button-36,
   ._button-37,
-  ._button-38,
-  ._button-39 {
+  ._button-38 {
     z-index: 10;
     width: 25.6249999999%;
     margin-top: 0;
@@ -2290,12 +2310,13 @@ body {
 
   ._button-4 {
     clear: both;
-    z-index: 20;
+    z-index: 21;
     width: 27.1874999999%;
     margin-top: 0;
     margin-left: 10%;
   }
 
+  ._button-39,
   ._button-40,
   ._button-41,
   ._button-42 {
@@ -2306,14 +2327,14 @@ body {
   }
 
   ._button-5 {
-    z-index: 21;
+    z-index: 22;
     width: 25.6249999999%;
     margin-top: 0;
     margin-left: 0;
   }
 
   ._button-6 {
-    z-index: 22;
+    z-index: 23;
     width: 26.875%;
     margin-top: 0;
     margin-left: 0;
@@ -2340,7 +2361,10 @@ body {
   }
 
   .hr span {
-    font-size: 1.333em;
     color: #000000;
+  }
+
+  .hr-7 span {
+    font-size: 1.333em;
   }
 }
