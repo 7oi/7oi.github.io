@@ -237,8 +237,6 @@ p strong {
   }
 
   .btn {
-    position: relative;
-    margin-left: 10%;
     font-size: 1em;
   }
 
@@ -271,7 +269,6 @@ p strong {
   }
 
   #annad {
-    clear: none;
     border-bottom-left-radius: 0;
     border-top-right-radius: 5px;
   }
@@ -391,24 +388,20 @@ p strong {
     width: 86px;
   }
 
+  .nav {
+    margin-left: 10%;
+    width: 100%;
+  }
+
   .btn {
+    margin: 0;
     position: relative;
     width: 26.667%;
     font-size: 1em;
   }
 
-  #menntun {
-    clear: both;
-    margin-left: 10%;
-  }
-
   #faerni {
     border-top-right-radius: 5px;
-  }
-
-  .btn #medmaeli {
-    clear: both;
-    margin-left: 10%;
   }
 
   #annad {
