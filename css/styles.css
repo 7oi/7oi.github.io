@@ -16,6 +16,14 @@ h1 {
   font-weight: 300;
 }
 
+h1 a {
+  color: #000000;
+}
+
+h1 a:hover {
+  color: rgb(90, 90, 90);
+}
+
 h2 {
   float: left;
   width: 100%;
@@ -364,7 +372,7 @@ p strong {
 }
 
 @media(max-width: 320px) {
-  
+
   body {
     font-size: 0.75em;
   }
