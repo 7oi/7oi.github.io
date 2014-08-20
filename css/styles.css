@@ -16,7 +16,7 @@ h1 {
   font-weight: 300;
 }
 
-h1 a {
+a {
   color: #000000;
 }
 
@@ -100,9 +100,6 @@ p strong {
   padding-top: 10px;
   padding-left: 5px;
   font-size: 1.25em;
-  font-weight: 400;
-  line-height: 1.38;
-  color: rgb(0, 0, 0);
   background-color: rgb(196, 196, 196);
 }
 
@@ -130,6 +127,7 @@ p strong {
   width: 66.6666666666%;
   min-height: 258px;
   margin-top: -215px;
+  margin-bottom: 50px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -174,19 +172,15 @@ p strong {
 .social .fb_link {
   clear: both;
 }
-
 .social .linkedin_link {
   margin-left: 22.0484699999%;
 }
-
 .social .gplus_link {
   margin-left: 44.12081%;
 }
-
 .social .twitter_link {
   margin-left: 66.18718%;
 }
-
 .social .github_link {
   margin-left: 86.74346%;
 }
@@ -194,15 +188,12 @@ p strong {
 .social .linkedin_icon {  
   margin: -34px 0 0 22.00072%;
 }
-
 .social .gplus_icon {
   margin: -34px 0 0 44.07903%;
 }
-
 .social .twitter_icon {
   margin: -34px 0 0 66.18718%;
 }
-
 .social .github_icon {
   margin: -34px 0 0 86.94043%;
 }
@@ -240,7 +231,7 @@ p strong {
 
 /* ========== MEDIA QUERIES ========== */
 
-@media(max-width: 1024px) {
+@media(max-width: 1024px) {  
   body {
     font-size: 0.875em;
   }
@@ -258,11 +249,9 @@ p strong {
   .content .social {
     margin-top: 96px;
   }
-
 }
 
 @media(max-width: 768px) {
-
   h1 {
     font-size: 2.286em;
   }
@@ -325,11 +314,9 @@ p strong {
   .social .github_icon {
     margin-left: 91.87042%;
   }
-
 }
 
 @media(max-width: 568px) {
-
   body {
     font-size: 0.875em;
   }
@@ -372,7 +359,6 @@ p strong {
 }
 
 @media(max-width: 320px) {
-
   body {
     font-size: 0.75em;
   }
@@ -411,13 +397,18 @@ p strong {
     font-size: 1em;
   }
 
+  #menntun {
+    clear: both;
+    margin-left: 10%;
+  }
+
   #faerni {
     border-top-right-radius: 5px;
   }
 
   .btn #medmaeli {
     clear: both;
-    margin-left: 20%;
+    margin-left: 10%;
   }
 
   #annad {
