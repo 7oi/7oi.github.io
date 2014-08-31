@@ -199,6 +199,10 @@ p strong {
   margin: -34px 0 0 86.94043%;
 }
 
+#abovetext {
+  display: none;
+}
+
 /* ---------- Other stuff ---------- */
 
 .content p,
@@ -261,6 +265,7 @@ p strong {
   }
 
   .btn {
+    font-size: 0.90em;
     text-align: center;
   }
 
@@ -312,6 +317,14 @@ p strong {
   .social .github_icon {
     margin-left: 91.87042%;
   }
+
+  #abovetext {
+    display: inline;
+  }
+
+  #lefttext {
+    display: none;
+  }
 }
 
 @media(max-width: 568px) {
@@ -339,8 +352,24 @@ p strong {
     width: 100px;
   }
 
+  .nav {
+    margin-left: 10%;
+    width: 100%;
+  }
+
   .btn {
-    font-size: 0.857em;
+    margin: 0;
+    position: relative;
+    width: 26.667%;
+    font-size: 1em;
+  }
+
+  #faerni {
+    border-top-right-radius: 5px;
+  }
+
+  #annad {
+    border-top-right-radius: 0px;
   }
 
   .social {
@@ -389,25 +418,10 @@ p strong {
     width: 86px;
   }
 
-  .nav {
-    margin-left: 10%;
-    width: 100%;
-  }
-
   .btn {
-    margin: 0;
-    position: relative;
-    width: 26.667%;
-    font-size: 1em;
+    font-size: 0.9em;
   }
-
-  #faerni {
-    border-top-right-radius: 5px;
-  }
-
-  #annad {
-    border-top-right-radius: 0px;
-  }
+  
 
   .content .social {
     width: 90%;
