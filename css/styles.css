@@ -51,9 +51,39 @@ a:hover {
   color: rgb(90, 90, 90);
 }
 
+.trigger {
+  cursor: pointer;
+  font-style: inherit;
+  color: rgb(130, 130, 130);
+}
+
+.trigger:hover {
+  color: rgb(90, 90, 90);
+}
+
+.expand {
+  display: none;
+}
+
 p strong {
   font-style: inherit;
   font-weight: 700;
+}
+
+.hover_msg {
+  display: none;
+  font-size: 0.6em;
+}
+
+.unacceptable {
+  display: none;
+  position: absolute;
+  margin-top: 50vh;
+  margin-left: 40vw;
+  text-align: center;
+  font-size: 3em;
+  background-color: yellow;
+  padding: 10px;
 }
 
 /* ---------- My info in the head ---------- */
