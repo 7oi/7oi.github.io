@@ -117,6 +117,7 @@ p strong {
 
 .smetti {
   display: block;
+  cursor: pointer;
   float: right;
   width: 143px;
   height: auto;
