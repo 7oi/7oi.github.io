@@ -1,7 +1,11 @@
 $(function() {
-  
-  // Just a little laziness to change the html on each file...
+  // Let's detect which language we're looking at
+  var eng = document.location.pathname.indexOf("/en") != 0;
+
+  // Laziness on my behalf to change the html of each page
+  // Plus, this is more dynamic... Uh, yeah...
   var current = location.pathname.split('/').pop();
+
   if (current.indexOf(".html") != 0) {
     $(".lang").attr("href", $(".lang").attr("href") + current);
   }
