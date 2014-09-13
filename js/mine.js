@@ -1,6 +1,10 @@
 $(function() {
-  // Let's detect which language we're looking at
-  var eng = document.location.pathname.indexOf("/en") == 0;
+  
+  // Just a little laziness to change the html on each file...
+  var current = location.pathname.split('/').pop();
+  if (current.indexOf(".html") != 0) {
+    $(".lang").attr("href", $(".lang").attr("href") + current);
+  }
 
   // Some animations to make lists a bit less crowded,
   // especially in the Music Experience category
@@ -44,7 +48,7 @@ $(function() {
     }
     else if (count == 7) {
       $("body").css("background-color", "yellow");
-      $(".smetti").attr("src", "images/llemongrab.png");
+      $(".smetti").attr("src", "images/ll.png");
       $(".unacceptable").text("UNACCEPTABLE!!!");
       for (var i = 0; i < 100; i++){
         $(".unacceptable").fadeIn(100).delay(100).fadeOut(100);
