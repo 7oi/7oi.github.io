@@ -77,9 +77,9 @@ p strong {
 
 .unacceptable {
   display: none;
-  position: absolute;
-  margin-top: 50vh;
-  margin-left: 40vw;
+  position: fixed;
+  width: 100%;
+  margin-top: 320px;
   text-align: center;
   font-size: 3em;
   background-color: yellow;

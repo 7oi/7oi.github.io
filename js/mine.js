@@ -21,7 +21,7 @@ $(function() {
   $(".trigger").mouseout(function() {
     $(this).find(".hover_msg").fadeOut();
   });
-
+  
   var count = 0;
   $(".smetti").click(function() {
     count++;
