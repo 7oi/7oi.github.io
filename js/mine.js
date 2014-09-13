@@ -1,6 +1,6 @@
 $(function() {
   // Let's detect which language we're looking at
-  var eng = document.location.pathname.indexOf("/en") != 0;
+  var eng = document.location.pathname.indexOf("/en") == 0;
 
   // Laziness on my behalf to change the html of each page
   // Plus, this is more dynamic... Uh, yeah...
