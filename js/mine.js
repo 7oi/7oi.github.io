@@ -58,6 +58,17 @@ $(function() {
         $(".unacceptable").fadeIn(100).delay(100).fadeOut(100);
       };
     }
+    else if (count == 12) {
+      $(".unacceptable").remove();
+      $( '<iframe id="video" width="560" height="315" src="http://www.youtube.com/embed/SPUSBNxIiDo?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>'
+        ).insertAfter( ".content" );
+      $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+
+      $('#video').delay(50000).fadeOut();
+      $(window).resize(function(){
+        $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' }).delay(5000).remove();
+      });
+    }
   });
 
 });

@@ -94,6 +94,11 @@ p strong {
   height: 30px;
 }
 
+#video {
+  position: absolute;
+  left: 0px;
+}
+
 /* ---------- My info in the head ---------- */
 
 .me {
