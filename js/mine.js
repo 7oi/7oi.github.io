@@ -12,7 +12,7 @@ $(function() {
 
   // Some animations to make lists a bit less crowded,
   // especially in the Music Experience category
-  $(".trigger").click(function() {
+  $(".trigger").bind('touchstart click', function() {
     var triggered = $(this).next();
     if (triggered.is(":visible")) {
       triggered.slideUp();
