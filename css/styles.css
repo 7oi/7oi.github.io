@@ -99,6 +99,18 @@ p strong {
   left: 0px;
 }
 
+#close {
+  position: absolute;
+  right: 10px;
+  display: none;
+  padding: 3px 6px 3px 6px;
+  font-size: 1.6em;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+  background-color: rgb(241, 241, 241);
+}
+
 /* ---------- My info in the head ---------- */
 
 .me {

@@ -63,11 +63,16 @@ $(function() {
       $( '<iframe id="video" width="560" height="315" src="http://www.youtube.com/embed/SPUSBNxIiDo?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>'
         ).insertAfter( ".content" );
       $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
-
-      $('#video').delay(50000).fadeOut();
       $(window).resize(function(){
-        $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' }).delay(5000).remove();
+        $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
       });
+      $("<p id='close'>close x</p>").insertAfter("#video");
+      $("#close").delay(3000).fadeIn(1000);
+      $("#close").click(function() {
+        $("#video").remove();
+        $("#close").remove();
+      });
+      $('#video').delay(50000).fadeOut();
     }
   });
 
