@@ -46,11 +46,11 @@ $(function() {
 
   $(".smetti").click(function() {
     count++;
-    if (count % 11 == 3) {
+    if (count % 12 == 3) {
       $( p ).insertAfter( ".content" );
       $(".unacceptable").fadeIn().delay(1000).fadeOut();
     }
-    else if (count % 7 == 0) {
+    else if (count % 12 == 7) {
       $("body").css("background-color", "yellow");
       $(".smetti").attr("src", "images/ll.png");
       $(".unacceptable").text("UNACCEPTABLE!!!");
@@ -58,7 +58,7 @@ $(function() {
         $(".unacceptable").fadeIn(100).delay(100).fadeOut(100);
       };
     }
-    else if (count % 11 == 0) {
+    else if (count % 12 == 0) {
       $(".unacceptable").remove();
       $( '<iframe id="video" width="560" height="315" src="http://www.youtube.com/embed/SPUSBNxIiDo?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>'
         ).insertAfter( ".content" );
